@@ -32,3 +32,10 @@ a:hover {
   50% { opacity: 0.6; }
   100% { opacity: 0.2; }
 }
+
+a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}
+
